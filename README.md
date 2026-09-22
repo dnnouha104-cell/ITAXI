@@ -1,6 +1,6 @@
-#  iTAXI
+# iTAXI
 
-##  Description
+## Description
 
 Ce projet de fin d'études consiste à développer **iTAXI**, une solution IoT dédiée à la gestion des réservations de taxis.
 
@@ -12,7 +12,7 @@ Le système repose sur un boîtier embarqué basé sur le microcontrôleur **ESP
 
 L'architecture IoT s'appuie sur une communication bidirectionnelle entre le boîtier embarqué et l'application mobile via **Firebase**, permettant une synchronisation des données en temps réel.
 
-##  Technologies utilisées
+## Technologies utilisées
 
 - Android Studio
 - Kotlin
@@ -26,82 +26,80 @@ L'architecture IoT s'appuie sur une communication bidirectionnelle entre le boî
 - Google Maps
 - GitHub
 
-##  Fonctionnalités principales
+## Fonctionnalités principales
 
 ### Client standard
 
--  Création de compte et connexion
--  Recherche des taxis disponibles en temps réel
--  Affichage de la position des taxis
--  Affichage du prix estimé
--  Réservation d'un taxi
--  Suivi du trajet en temps réel
--  Gestion des taxis favoris
--  Historique des trajets
+- Création de compte et connexion
+- Recherche des taxis disponibles en temps réel
+- Affichage de la position des taxis
+- Affichage du prix estimé
+- Réservation d'un taxi
+- Suivi du trajet en temps réel
+- Gestion des taxis favoris
+- Historique des trajets
 
-###  Client malvoyant
+### Client malvoyant
 
--  Authentification par commande vocale
--  Interaction avec l'application par la voix
--  Recherche et sélection vocale des taxis
--  Guidage vocal
--  Indication de la distance en temps réel
--  Consultation vocale de l'historique
--  Gestion vocale des favoris
+- Authentification par commande vocale
+- Interaction avec l'application par la voix
+- Recherche et sélection vocale des taxis
+- Guidage vocal
+- Indication de la distance en temps réel
+- Consultation vocale de l'historique
+- Gestion vocale des favoris
 
 ### Système IoT du taxi
 
--  Géolocalisation avec GPS NEO-6M
--  Communication avec l'ESP32
--  Envoi des données vers Firebase
--  Affichage des informations sur l'écran LCD
--  Mise à jour automatique du statut du taxi
--  Synchronisation des données en temps réel
+- Géolocalisation avec GPS NEO-6M
+- Communication avec l'ESP32
+- Envoi des données vers Firebase
+- Affichage des informations sur l'écran LCD
+- Mise à jour automatique du statut du taxi
+- Synchronisation des données en temps réel
 
 ### Chauffeur
 
--  Réception des informations de la course sur l'écran LCD
--  Acceptation d'une course avec un bouton
--  Refus d'une course avec un bouton
+- Réception des informations de la course sur l'écran LCD
+- Acceptation d'une course avec un bouton
+- Refus d'une course avec un bouton
 - Communication automatique avec Firebase
 - Transmission de la position GPS
 
-#  Captures d'écran
+# Captures d'écran
 
-##  Application mobile
+## Application mobile
 
 ### Application iTAXI
 
-![Application iTAXI](application%20iTAXI.png)
+<img src="application%20iTAXI.png" width="350">
 
 ### Connexion malvoyant
 
-![Connexion malvoyants](processus%20de%20connexion%20malvoyants.png)
+<img src="processus%20de%20connexion%20malvoyants.png" width="350">
 
 ### Réservation
 
-![Réservation](reservation.png)
+<img src="reservation.png" width="350">
 
 ### Suivi
 
-![Suivi](suivi.png)
+<img src="suivi.png" width="350">
 
 ### Évaluation
 
-![Évaluation](evaluation.png)
+<img src="evaluation.png" width="350">
 
-##  Système embarqué
+## Système embarqué
 
 ### Boîtier embarqué
 
-![Système embarqué](image1.png)
+<img src="image1.png" width="350">
 
 ### Schéma électrique
 
-![Schéma électrique](schéma%20electrique.png)
+<img src="schéma%20electrique.png" width="350">
 
 ### Schéma PCB
 
-![Schéma PCB](schéma%20pcb.png)
-
-
+<img src="schéma%20pcb.png" width="350">

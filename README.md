@@ -104,6 +104,4 @@ L'architecture IoT s'appuie sur une communication bidirectionnelle entre le boî
 
 ![Schéma PCB](schéma%20pcb.png)
 
-### Modèle 3D
 
-![Schéma 3D](schéma%203D.png)
